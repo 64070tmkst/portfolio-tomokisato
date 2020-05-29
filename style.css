@@ -101,7 +101,8 @@ li {
   text-align: center;
   color: #f1f2f6;
   line-height: 60px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 48px;
 }
 
 #topimg #topcontent #topcopy span {
