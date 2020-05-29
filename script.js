@@ -24,6 +24,7 @@ $(function(){
     animation();
 
 
+    
 
 
     let position;
