@@ -10,7 +10,7 @@
 
 $TITLE-FONT: 'Tw cen MT','Josefin Sans','Futura-Medium', sans-serif;
 $DESCRIPTION-FONT: 'Noto Sans JP', sans-serif;
-$FONT-COLOR:#2a2a2a;
+$FONT-COLOR:#3d3d3d;
 $WHITE-COLOR: #f1f2f6;
 $THEME-COLOR:#3d3d3d;
 $ACCENT-COLOR:#EE537F;
@@ -73,13 +73,13 @@ li{
 
 .round-cap-left:before {
     background-color: $ACCENT-COLOR; /* 線色 */
-    border-radius: 3px; /* 線幅の半分 */
+    border-radius: 2px; /* 線幅の半分 */
     content: "";
     display: inline-block;
     height: 40px; /* 線の長さ */
     margin-right: 20px; /* 線右の余白 */
     vertical-align: middle;
-    width: 6px; /* 線幅 */
+    width: 4px; /* 線幅 */
 }
 
 
@@ -93,7 +93,7 @@ li{
     #bm{
         background-color:#3d3d3d;
         width: 100%;
-        height: 900px;
+        height: 100%;
         z-index: 0;
     }
 
@@ -108,11 +108,11 @@ li{
         
         #topcopy{
             font-family: $TITLE-FONT;
-            font-weight: bold;
+            font-weight: 500;
             text-align:center;
             color:$WHITE-COLOR;
             line-height: 60px;
-            letter-spacing: 4px;
+            letter-spacing: 3px;
             span{
                 color:$ACCENT-COLOR;
                 font-family: $TITLE-FONT;
@@ -129,7 +129,7 @@ header{
         font-family: $TITLE-FONT;
         color:$WHITE-COLOR;
         font-size: 25px;
-        font-weight: bold;
+        font-weight: 500;
         letter-spacing: 4px;
         position: absolute; 
         top: 40px;
@@ -169,7 +169,7 @@ header{
                 padding: 10px;
                 margin:0 20px;
                 text-align: center; 
-                font-weight: bold;
+                font-weight: 500;
                 flex: auto;
                 color:$WHITE-COLOR;
                 overflow:hidden;
@@ -332,29 +332,36 @@ footer{
                 width: 80%;
                 margin:0 auto;
                 list-style: none;
-                display: flex;
-                flex-wrap: wrap;
+                display: grid;
+                grid-template-columns:repeat(3, 1fr);
+                // justify-items: center;
+                // align-items: center;
                 li{
-                    flex: auto;
                     width: 30%;
                     display: flex;
                     margin-top: 30px;
+                    margin-left:30px;
+                    display: grid;
+                    grid-template-columns:1fr 2fr;
                     img{
-                        flex: auto;
-                        width: 35%;
+                        width:60px;
                         height: auto;
-                        padding: 0 15px 30px 15px;
+                        
                     }
                     .skillsdescription{
-                        flex: auto;
-                        width: 65%;
+                        margin-left:20px;
                         h3{
                             font-family: $TITLE-FONT;
+                            font-weight: 500;
                             
                         }
                         p{
                             font-family: $DESCRIPTION-FONT;
                             font-size: 14px;
+                            font-weight: 500;
+                            width: 150px;
+                            line-height: 1.2;
+                            margin-top: 8px;
                             
                         }
                         
@@ -423,7 +430,7 @@ footer{
             h3{
                 text-align:center;
                 font-family: $TITLE-FONT;
-                font-weight: medium;
+                font-weight: 500;
                 font-size: 25px;
                 line-height: 40px;
                 color: $FONT-COLOR;
