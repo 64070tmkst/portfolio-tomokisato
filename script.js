@@ -18,7 +18,7 @@ $(function(){
         renderer: 'svg/canvas/html',
         loop: true,
         autoplay: true,
-        path:'data.json' // the path to the animation json
+        path:'web-animation.json' // the path to the animation json
     });
 
     animation();
