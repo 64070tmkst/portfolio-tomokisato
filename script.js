@@ -15,7 +15,7 @@ $(function(){
 
     const animation = lottie.loadAnimation({
         container: animationContainer, // the dom element that will contain the animation
-        renderer: 'svg',
+        renderer: 'svg/canvas/html',
         loop: true,
         autoplay: true,
         path: 'data.json' // the path to the animation json
