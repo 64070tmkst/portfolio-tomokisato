@@ -1,0 +1,663 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+$TITLE-FONT: 'Tw cen MT','Josefin Sans','Futura-Medium', sans-serif;
+$DESCRIPTION-FONT: 'Noto Sans JP', sans-serif;
+$FONT-COLOR:#2a2a2a;
+$WHITE-COLOR: #f1f2f6;
+$THEME-COLOR:#3d3d3d;
+$ACCENT-COLOR:#EE537F;
+
+
+
+
+
+body{
+    background-color:#f1f2f6;
+    font-weight: 500;
+}
+
+h1{
+    font-family:$TITLE-FONT;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color:$FONT-COLOR;
+    
+}
+
+h2{
+    font-family:$TITLE-FONT;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: $FONT-COLOR;
+    
+}
+
+h4{
+    font-family: $DESCRIPTION-FONT;
+    font-size: 20px;
+    line-height: 33px;
+    color: $FONT-COLOR;
+    font-weight: 500;
+}
+
+p{
+    font-family: $DESCRIPTION-FONT;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 30px;
+    color: $FONT-COLOR;
+    
+}
+
+li{
+    font-family: $DESCRIPTION-FONT;
+    color: $FONT-COLOR;
+}
+
+
+.headlabel{
+    font-family: $TITLE-FONT;
+    margin:120px auto 50px 50px;
+    padding-left: 20px;
+}
+
+.round-cap-left:before {
+    background-color: $ACCENT-COLOR; /* 線色 */
+    border-radius: 3px; /* 線幅の半分 */
+    content: "";
+    display: inline-block;
+    height: 40px; /* 線の長さ */
+    margin-right: 20px; /* 線右の余白 */
+    vertical-align: middle;
+    width: 6px; /* 線幅 */
+}
+
+
+#topimg{
+    width: 100%;
+    background-color:$THEME-COLOR;
+    // background: -webkit-linear-gradient(top right, #ff6b81 0%,#ff6b81 35%,#ff4757 100%);
+    height: 900px;
+    Position: relative;
+
+    #bm{
+        background-color:#3d3d3d;
+        width: 100%;
+        height: 900px;
+        z-index: 0;
+    }
+
+    #topcontent{
+        width:auto;
+        position:absolute;
+        top:400;
+        left:0;
+        right:0;
+        margin:auto;
+
+        
+        #topcopy{
+            font-family: $TITLE-FONT;
+            font-weight: bold;
+            text-align:center;
+            color:$WHITE-COLOR;
+            line-height: 60px;
+            letter-spacing: 4px;
+            span{
+                color:$ACCENT-COLOR;
+                font-family: $TITLE-FONT;
+            }
+        }
+    
+    }
+}
+
+header{
+    
+    h3{
+        padding-left: 25px;
+        font-family: $TITLE-FONT;
+        color:$WHITE-COLOR;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: 4px;
+        position: absolute; 
+        top: 40px;
+        left: 70px;
+        width: auto;
+        z-index: 3;
+        
+    }
+    
+    
+    nav{
+        position: absolute; 
+        position: fixed;
+        top: 40px;
+        right:30px;
+        width: auto;
+        z-index: 3;
+        background-color: $THEME-COLOR;
+        border-radius: 100px;
+        overflow:hidden;
+        
+        ul{
+            list-style:none;
+            display: inline-block;
+            display: flex;
+            top: 50px;
+            left: 50px;
+            
+            #arrow{
+                width:30px;
+                cursor:pointer;
+            }
+
+            li{
+                font-family:$TITLE-FONT;
+                font-size: 20px;
+                padding: 10px;
+                margin:0 20px;
+                text-align: center; 
+                font-weight: bold;
+                flex: auto;
+                color:$WHITE-COLOR;
+                overflow:hidden;
+                width:130px;
+
+                &:nth-child(5){
+                    width:40px;
+                    cursor:pointer;
+                }
+                &:hover{
+                    background-color:$THEME-COLOR;
+                    border-radius: 100px;
+                    color:$ACCENT-COLOR;
+                    transform: rotateZ( -4deg ) ;
+                    transition-duration: 0.4s;
+                    
+                }
+                
+                a{
+                    text-decoration: none;
+                    color: $WHITE-COLOR;
+                    font-family: $TITLE-FONT;
+                    white-space: nowrap;
+                    &:hover{
+                        color:$ACCENT-COLOR;
+                        transition-duration: 0.4s;
+                    }
+                }
+                
+            }
+            
+            
+            
+        }
+        
+        
+    }
+}
+
+
+footer{
+    margin-top: 150px;
+    width:100%;
+    height:auto;
+    background-color: $FONT-COLOR;
+    small{
+        display: block;
+        color: #ffffff;
+        padding:50px 0;
+        text-align: center;
+        font-family: $TITLE-FONT;
+        font-weight: bold;
+    }
+}
+
+
+
+
+.wrapper{
+
+    .content{ 
+        margin: 30px auto 0 auto;
+        width:1000px;
+        height: auto;
+        
+        
+        .aboutme{
+            width: 100%;
+            height: auto;
+            .aboutmelabel{
+                font-family: $TITLE-FONT;
+                margin:120px auto 50px 50px;
+                padding-left: 20px;
+            }
+            .aboutmecontent{
+                margin: 0 auto;
+                display: flex;
+                img{
+                    flex: auto;
+                    width: 40%;
+                    padding: 30px;
+                    margin: 50px auto;
+                    margin-top:30px;
+                    padding:auto;
+                }
+                .selfintro{
+                    flex:auto;
+                    width: 65%;
+                    h1{
+                        font-family: $TITLE-FONT;
+                        margin:30px;
+                    }
+                    .introtitle{
+                        font-family: $DESCRIPTION-FONT;
+                        margin:30px;
+                    }
+                    .introdescription{
+                        font-family: $DESCRIPTION-FONT;
+                        font-size: 16px;
+                        margin:30px;
+                    }
+                }
+                
+            }
+            
+            .more{
+                display: none;
+                h2{
+                    margin:30px;
+                    margin-top:150px;
+                    text-align:center;
+                }
+                h4{
+                    margin:30px auto;
+                    width:70%;
+                    
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 30px;
+                    width:70%;
+                    margin: 30px auto;
+                }
+            }
+
+
+            
+            .showmore{
+                margin: 0 auto;
+                cursor:pointer;
+                h2{
+                    text-align: center;
+                }
+
+                display: block;
+                padding: 0.3em 1em;
+                margin:100px auto 200px auto;
+                width:500px;
+                text-decoration: none;
+                font-family:$TITLE-FONT;
+                font-size: 30px;
+                font-weight:bold;
+                color: $THEME-COLOR;
+                border: solid 3px $THEME-COLOR;
+                border-radius: 100px;
+                transition: .4s;
+                &:hover{
+                    border-color:$ACCENT-COLOR;
+                    background: $ACCENT-COLOR;
+                    color: white;
+                }
+                
+            }
+            .skillslabel{
+                font-family: $TITLE-FONT;
+                text-align: center;
+                margin: 30px;
+            }
+            .skillslist{
+                width: 80%;
+                margin:0 auto;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    flex: auto;
+                    width: 30%;
+                    display: flex;
+                    margin-top: 30px;
+                    img{
+                        flex: auto;
+                        width: 35%;
+                        height: auto;
+                        padding: 0 15px 30px 15px;
+                    }
+                    .skillsdescription{
+                        flex: auto;
+                        width: 65%;
+                        h3{
+                            font-family: $TITLE-FONT;
+                            
+                        }
+                        p{
+                            font-family: $DESCRIPTION-FONT;
+                            font-size: 14px;
+                            
+                        }
+                        
+                    }
+                }
+                
+            }
+            
+            
+        }
+
+        .contact{
+            width: 100%;
+            height: 500px;
+            
+            .contactlabel{
+                font-family: $TITLE-FONT;
+                margin:120px auto 50px 0;
+                padding-left: 20px;
+            }
+            
+            .name{
+                text-align:right;
+                margin-right: 40px;
+                font-size: 20px;
+            }
+
+
+            ul{
+                margin: 100px 170px;
+                display: flex;
+                
+                
+                li{
+                    flex: auto;
+                    list-style: none;
+                    font-size: 40px;
+                    text-align: center;
+                    color:$FONT-COLOR;
+                    .disabled{
+                        color:#AAAFB8;
+                    }
+
+                    a{
+                        flex: auto;
+                        list-style: none;
+                        font-size: 40px;
+                        text-align: center;
+                        color:$FONT-COLOR;
+                        i{
+                            transform: rotateZ( 0deg ) ;
+                            &:hover{
+                                transform: rotateZ( -8deg ) ;
+                                transition-duration: 0.4s;
+                            }
+                        }
+                        &:hover{
+                            color: $ACCENT-COLOR;
+                        } 
+                    }
+
+                }
+                
+            }
+            
+            h3{
+                text-align:center;
+                font-family: $TITLE-FONT;
+                font-weight: medium;
+                font-size: 25px;
+                line-height: 40px;
+                color: $FONT-COLOR;
+                margin-bottom: 150px;
+            }
+            
+        
+            
+            
+        }
+        
+
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+.works{
+    width: 95%;
+    max-width: 1440px;
+    margin: auto;
+    
+    .workslabel{
+        font-family: $TITLE-FONT;
+        margin:120px auto 50px 50px;
+        padding-left: 20px;
+    }
+    ul{
+
+        display: flex;
+        flex-wrap:wrap;
+        
+        li{
+            width:50%;
+            margin:auto;
+            list-style: none;
+            flex:auto;
+            
+
+            
+
+            .imgguide{
+                margin: 20px;
+                overflow:hidden;
+                box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+                display: inline-block;
+                cursor: pointer;
+                transition: all 0.3s ease 0s;
+
+                    &:hover{
+                    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.25);
+                    transform: scale(1.05);
+                    transition-duration: 0.3s;
+                    }
+
+                img{
+                    width:100%;
+                    &:hover{
+                        transform: scale(1.05);
+                        transition-duration: 0.3s;	
+                    }
+
+                }
+            }
+            
+        }
+    }
+    
+    
+    
+}
+
+
+
+// -----------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------
+// worksページここから
+
+.workstop{
+    width:100%;
+    height:500px;
+    
+    
+    .content{
+        width:1000px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        img{
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    }
+}
+
+
+#utiletop{
+    background: url(utile/img/utiletopback.png);
+}
+
+#jyarantop{
+    background-color: #f6b93b;
+}
+
+#osaifutop{
+    background-color: #d5d5d6;
+}
+
+#othertop{
+    background-color:$FONT-COLOR;
+}
+
+#chameleballtop{
+    background: rgb(23,159,159);
+    background: linear-gradient(120deg, rgba(23,159,159,1) 0%, rgba(74,205,90,1) 100%);
+}
+
+#hudlogtop{
+    background-color:#e5e5e5
+
+}
+
+.workswrapper{
+    margin: 0 auto;
+    width: 80%;
+    max-width:1000px;
+    height: auto;
+    
+    
+    
+    
+    .content{
+
+
+        
+        h1{
+            font-family: $TITLE-FONT;
+            width: 80%;
+        }
+        h2{
+            font-family: $TITLE-FONT;
+            margin: 100px auto 50px auto;
+            padding-left: 20px;
+            
+        }
+        h4{
+            margin-top:40px;
+            
+        }
+        p{
+            font-family: $DESCRIPTION-FONT;
+            line-height: 37px;
+            margin: auto;
+            
+        }
+        
+        img{
+            width:100%;
+            margin: 75px auto;
+
+        }
+
+        iframe{
+            width:960px;
+            height:540px;
+            margin:30px auto;
+        }
+
+        .round-cap-left:before {
+            background-color: $ACCENT-COLOR; /* 線色 */
+            border-radius: 3px; /* 線幅の半分 */
+            content: "";
+            display: inline-block;
+            height: 40px; /* 線の長さ */
+            margin-right: 20px; /* 線右の余白 */
+            vertical-align: middle;
+            width: 6px; /* 線幅 */
+        }
+        
+        .prototype{
+            margin:50px auto;
+            text-align: center;
+        }
+        
+        .btn-flat-border {
+            display: block;
+            padding: 0.3em 1em;
+            margin:100px auto 200px auto;
+            width:500px;
+            text-decoration: none;
+            font-family:$TITLE-FONT;
+            font-size: 30px;
+            font-weight:bold;
+            color: $THEME-COLOR;
+            border: solid 3px $THEME-COLOR;
+            border-radius: 100px;
+            transition: .4s;
+            &:hover{
+                border-color:$ACCENT-COLOR;
+                background: $ACCENT-COLOR;
+                color:$FONT-COLOR;
+            }
+        }
+
+        .otherwork{
+            display:flex;
+            .otherworkelement{
+                flex:auto;
+                width:50%;
+                h4{
+                    margin:80px 40px;
+                }
+                p{
+                    margin:80px 40px;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+// ----------------------------------------------------------
+// ----------------------------------------------------------
+// ----------------------------------------------------------
+// レスポンシブ設定
+@media(max-width:1000px){
+
+}
+
+
