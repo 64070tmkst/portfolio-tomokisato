@@ -1,15 +1,3 @@
-
-
-
-$(function(){
-
-
-
-
-
-    console.log("JS running");
-
-
     const animationContainer= document.getElementById('bm');
     console.log(animationContainer);
 
@@ -22,6 +10,18 @@ $(function(){
     });
 
     animation();
+
+
+$(function(){
+
+
+
+
+
+    console.log("JS running");
+
+
+
 
 
     
