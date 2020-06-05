@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url("https://use.typekit.net/tdl8ppx.css");
 
 *{
     box-sizing: border-box;
@@ -8,7 +9,7 @@
     font-family:sans-serif;
 }
 
-$TITLE-FONT: 'Tw cen MT','Futura-Medium','Josefin Sans', sans-serif;
+$TITLE-FONT: century-gothic, 'Tw cen MT','Futura-Medium','Josefin Sans', sans-serif;
 $DESCRIPTION-FONT: 'Noto Sans JP', sans-serif;
 $FONT-COLOR:#3d3d3d;
 $WHITE-COLOR: #f1f2f6;
