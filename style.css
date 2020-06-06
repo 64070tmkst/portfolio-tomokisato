@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-size: 40px;
   font-weight: 500;
   line-height: 50px;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
@@ -52,7 +52,7 @@ li {
 }
 
 .headlabel {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 120px auto 50px 50px;
   padding-left: 20px;
 }
@@ -97,8 +97,8 @@ li {
 }
 
 #topimg #topcontent #topcopy {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
-  font-weight: 500;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-weight: 300;
   text-align: center;
   color: #f1f2f6;
   line-height: 60px;
@@ -109,12 +109,12 @@ li {
 
 #topimg #topcontent #topcopy span {
   color: #EE537F;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
 }
 
 header h3 {
   padding-left: 25px;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   color: #f1f2f6;
   font-size: 25px;
   font-weight: 500;
@@ -155,7 +155,7 @@ header nav ul #arrow {
 }
 
 header nav ul li {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-size: 20px;
   padding: 10px;
   margin: 0 20px;
@@ -187,7 +187,7 @@ header nav ul li:hover {
 header nav ul li a {
   text-decoration: none;
   color: #f1f2f6;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   white-space: nowrap;
 }
 
@@ -209,7 +209,7 @@ footer small {
   color: #ffffff;
   padding: 50px 0;
   text-align: center;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -225,7 +225,7 @@ footer small {
 }
 
 .wrapper .content .aboutme .aboutmelabel {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 120px auto 50px 50px;
   padding-left: 20px;
 }
@@ -256,7 +256,7 @@ footer small {
 }
 
 .wrapper .content .aboutme .aboutmecontent .selfintro h1 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 30px;
 }
 
@@ -301,7 +301,7 @@ footer small {
   margin: 100px auto 200px auto;
   width: 500px;
   text-decoration: none;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: #3d3d3d;
@@ -322,7 +322,7 @@ footer small {
 }
 
 .wrapper .content .aboutme .skillslabel {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   text-align: center;
   margin: 30px;
 }
@@ -360,7 +360,7 @@ footer small {
 }
 
 .wrapper .content .aboutme .skillslist li .skillsdescription h3 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -379,7 +379,7 @@ footer small {
 }
 
 .wrapper .content .contact .contactlabel {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 120px auto 50px 0;
   padding-left: 20px;
 }
@@ -439,7 +439,7 @@ footer small {
 
 .wrapper .content .contact h3 {
   text-align: center;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-weight: 500;
   font-size: 25px;
   line-height: 40px;
@@ -454,7 +454,7 @@ footer small {
 }
 
 .works .workslabel {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 120px auto 50px 50px;
   padding-left: 20px;
 }
@@ -558,12 +558,12 @@ footer small {
 }
 
 .workswrapper .content h1 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   width: 80%;
 }
 
 .workswrapper .content h2 {
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   margin: 100px auto 50px auto;
   padding-left: 20px;
 }
@@ -616,7 +616,7 @@ footer small {
   margin: 100px auto 200px auto;
   width: 500px;
   text-decoration: none;
-  font-family: "Tw cen MT", century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
+  font-family: "Tw cen MT", futura-pt, century-gothic, "Futura-Medium", "Josefin Sans", sans-serif;
   font-size: 30px;
   font-weight: 500;
   color: #3d3d3d;
