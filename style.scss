@@ -9,7 +9,7 @@
     font-family:sans-serif;
 }
 
-$TITLE-FONT:   'Tw cen MT',futura-pt, century-gothic,'Futura-Medium','Josefin Sans', sans-serif;
+$TITLE-FONT:   'Tw cen MT', futura-pt,century-gothic,'Futura-Medium','Josefin Sans', sans-serif;
 $DESCRIPTION-FONT: 'Noto Sans JP', sans-serif;
 $FONT-COLOR:#3d3d3d;
 $WHITE-COLOR: #f1f2f6;
@@ -22,7 +22,7 @@ $ACCENT-COLOR:#EE537F;
 
 body{
     background-color:#f1f2f6;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h1{
@@ -186,7 +186,6 @@ header{
                     background-color:$THEME-COLOR;
                     border-radius: 100px;
                     color:$ACCENT-COLOR;
-                    transform: rotateZ( -4deg ) ;
                     transition-duration: 0.4s;
                     
                 }
